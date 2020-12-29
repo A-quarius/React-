@@ -10,7 +10,7 @@ export default (state = initialState, { type, payload }) => {
         case DECREASE:
             return state - 1
         case INCREASE_PAYLOAD:
-            return state + payload
+            return state 
         default:
             return state
     }
